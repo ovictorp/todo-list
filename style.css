@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  text-align: left;
+  background: #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+li.feito {
+  text-decoration: line-through;
+  color: #777;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li span {
+  flex: 1;
+}
+
+.btn-remover,
+.btn-editar {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.btn-remover:hover {
+  color: red;
+}
+
+.btn-editar:hover {
+  color: #0077cc;
+}
